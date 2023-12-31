@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 import pickle
 base_folder=r'C:\\Users\\user\\git\\github\\py2312_rf_pls\\'
 file_name=base_folder+'regression_pls.csv'
-model_name=base_folder+'rf_obtuna.pickle'
+model_name=base_folder+'rf_optuna.pickle'
 columns=['x1','x2','x3','x4','x5','x6','x7','x8','x9','x10','x11','x12','x13','x14','x15','x16','x17','x18','x19','Target']
 target_column='Target'
 df=pd.read_csv(file_name, encoding='utf-8', engine='python', usecols=columns)
